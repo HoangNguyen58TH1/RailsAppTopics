@@ -1,0 +1,27 @@
+# 18/11/2020
+- Xem lại curriculum
+- Xem lại cấu trúc folder in Rails
+- tìm 1 khóa học về Rails trên Youtube rồi follow theo nó mà làm theo.
+
+- Đặt tên controller = số nhiều model + _controller
+  VD: model User.rb --> Controller: users_controller.rb (snake_case). Còn trong file bạn tạo ra sẽ là CamelCase.
+  "rails generate controller controller_name action_name"
+
+- Folder "concert" trong folder controller bao gồm những module dc sử dụng cho các file controller.
+  --> Mục đích của nó là giúp viết code theo DRY, tối ưu hóa code, tránh lặp code và dể dàng tái sử dụng.
+
+- mỗi controller bạn tạo sẽ có helper riêng với tên controller_name_helper.rb.
+
+- Khi down BS4 về sử dụng trong project của tên
+  --> folder CSS, JS thì để ở vendor/assets/...
+  --> folder fonts để ở app/assets/...
+  --> because: nếu để folder fonts ở đâu thì nó vẫn work bình thường. Nhưng khi run precompile thì folder fonts ở vendor sẽ không work, còn để ở app thì work. --> OK.
+
+- Có 2 cách using BS trong project của mình:
++ Down BS bằng gem --> muốn nâng cấp BS thì phải nâng cấp gem
++ Down BS thủ công --> muốn nâng cấp BS thì chỉ cần down lại về rồi bỏ vô thôi.
+
+- DRY
+- CoC (Convention over Configuration)
+
+- 
